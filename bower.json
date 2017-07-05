@@ -1,0 +1,26 @@
+{
+  "name": "rmp",
+  "version": "0.0.0",
+  "description": "Alternative array map function.",
+  "main": "rmp.deploy.js",
+  "support": "rmp.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "alternative",
+    "array",
+    "map",
+    "function",
+    "rmp"
+  ],
+  "homepage": "https://github.com/volkovasystems/rmp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

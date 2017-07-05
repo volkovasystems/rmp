@@ -1,0 +1,41 @@
+{
+  "name": "rmp",
+  "version": "0.0.0",
+  "description": "Alternative array map function.",
+  "main": "rmp.js",
+  "support": "rmp.support.js",
+  "deploy": "rmp.deploy.js",
+  "browser": "rmp.deploy.js",
+  "scripts": {
+    "build": "babel rmp.js --out-file rmp.support.js --source-maps && webpack --progress --display-modules",
+    "test": "mocha rmp-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/rmp.git"
+  },
+  "keywords": [
+    "alternative",
+    "array",
+    "map",
+    "function",
+    "rmp"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/rmp/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/rmp#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^3.0.0"
+  }
+}
